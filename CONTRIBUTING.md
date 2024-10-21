@@ -87,7 +87,7 @@ We have a Code of Conduct to ensure a welcoming environment for everyone. Please
 
 ## License
 
-By contributing to BackendKickstarter, you agree that your contributions will be licensed under the same ISC License that covers the project.
+By contributing to BackendKickstarter, you agree that your contributions will be licensed under the same MIT License that covers the project.
 
 ---
 
