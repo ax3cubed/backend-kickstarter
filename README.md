@@ -35,7 +35,8 @@ BackendKickstarter is a powerful and extensible starter template for building No
 To use BackendKickstarter, simply run the following command in your terminal:
 
  
-npx create-backend-kickstarter <project-name>
+npx create-backend-kickstarter 
+What is the name of your project?
 Replace `<project-name>` with the desired name for your new project.
 
 ## Usage
@@ -43,7 +44,10 @@ Replace `<project-name>` with the desired name for your new project.
 1. **Run the command** to create a new project:
     
     ```bash
-    npx create-backend-kickstarter my-new-backend
+    npx create-backend-kickstarter
+    What is the name of your project? my-node-backend
+    Do you want to include Docker support? Yes/No
+    
     ```
     
 2. **Start the development server**:
