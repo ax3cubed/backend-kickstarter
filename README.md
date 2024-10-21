@@ -47,22 +47,23 @@ Replace `<project-name>` with the desired name for your new project.
     npx create-backend-kickstarter
     What is the name of your project? my-node-backend
     Do you want to include Docker support? Yes/No
-    
+
     ```
+2. **rename .env.example -> .env && .env.example.local -> .env.[environment].local**
     
-2. **Start the development server**:
+3. **Start the development server**:
     
     ```bash
     pnpm run dev
     ```
     
-3. **Build the application for production**:
+4. **Build the application for production**:
     
     ```bash
     pnpm run build
     ```
     
-4. **Run the production server**:
+5. **Run the production server**:
     
     ```bash
     pnpm start
