@@ -27,8 +27,8 @@ We love receiving pull requests! To contribute code to BackendKickstarter, follo
 2. Clone your fork: Clone the forked repository to your local machine.
     
     ```bash
-    git clone https://github.com/ax3cubed/BackendKickstart.git
-    cd BackendKickstart
+    git clone https://github.com/ax3cubed/backend-kickstarter.git
+    cd backend-kickstarter
     ```
     
 3. Create a branch: Always create a new branch for your contributions. Use meaningful branch names that reflect the work being done, such as `feature/add-logging` or `bugfix/fix-typo`.
