@@ -35,7 +35,7 @@ BackendKickstarter is a powerful and extensible starter template for building No
 To use BackendKickstarter, simply run the following command in your terminal:
 
  
-npx create-BackendKickstarter <project-name>
+npx create-backend-kickstarter <project-name>
 Replace `<project-name>` with the desired name for your new project.
 
 ## Usage
@@ -43,37 +43,25 @@ Replace `<project-name>` with the desired name for your new project.
 1. **Run the command** to create a new project:
     
     ```bash
-    npx create-BackendKickstarter my-new-backend
+    npx create-backend-kickstarter my-new-backend
     ```
     
-2. **Navigate to your project directory**:
+2. **Start the development server**:
     
     ```bash
-    cd my-new-backend
+    pnpm run dev
     ```
     
-3. **Install dependencies** (if not already installed):
+3. **Build the application for production**:
     
     ```bash
-    pnpm install
+    pnpm run build
     ```
     
-4. **Start the development server**:
+4. **Run the production server**:
     
     ```bash
-    npm run dev
-    ```
-    
-5. **Build the application for production**:
-    
-    ```bash
-    npm run build
-    ```
-    
-6. **Run the production server**:
-    
-    ```bash
-    npm start
+    pnpm start
     ```
     
 
@@ -96,7 +84,7 @@ JWT_SECRET=mysecretkey
 To run the tests, use the following command:
 
 ```bash
-npm run test
+pnpm run test
 ```
 
 ## Linting and Formatting
@@ -104,8 +92,8 @@ npm run test
 You can check your code for linting issues and automatically fix them with:
 
 ```bash
-npm run lint
-npm run lint:fix
+pnpm run lint
+pnpm run lint:fix
 ```
 
 ## Docker Support
