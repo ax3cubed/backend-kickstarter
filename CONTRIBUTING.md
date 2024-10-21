@@ -41,8 +41,8 @@ We love receiving pull requests! To contribute code to BackendKickstarter, follo
 5. Run tests and lint: Before submitting, ensure your changes pass the linting and test suites.
     
     ```arduino
-    npm run lint
-    npm run test
+    pnpm run lint
+    pnpm run test
     ```
     
 6. Commit your changes: Use meaningful and descriptive commit messages.
@@ -67,7 +67,7 @@ To maintain consistency across the project, please adhere to the following guide
 - **Linting**: We use Biome for linting. Please run the following command before submitting your code:
     
     ```arduino
-    npm run lint
+    pnpm run lint
     ```
     
 - **Commit Messages**: Follow the Conventional Commits specification to write clear, descriptive commit messages. Example: `fix: resolve issue with API response validation`.
